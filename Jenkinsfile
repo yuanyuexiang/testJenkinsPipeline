@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('buildTheJob') {
       steps {
-        sh 'go build'
+        sh "go build"
       }
     }
   }
